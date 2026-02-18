@@ -21,3 +21,13 @@ These are beginner examples I practiced (I’ll expand these as I go):
 
 ## Notes
 More screenshots and findings will be added as I continue improving my searches and documentation.
+
+## Splunk Labs
+
+This repository documents hands-on Splunk investigations using Linux authentication logs to analyze login activity, failed authentication attempts, and session behavior.
+
+### Investigations
+- **Investigation 01:** Authentication Analysis
+- **Investigation 02:** Failed Login Pattern Analysis (in progress)
+- **Investigation 03:** Session Activity Review (planned)
+
