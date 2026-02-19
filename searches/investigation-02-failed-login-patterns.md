@@ -47,18 +47,9 @@ This search returned no results, indicating no source IP addresses generated rep
 
 ![Failed logins by source IP](./screenshots/investigation-02/failed-logins-by-source-ip.png)
 
-### Failed Password Events
-Screenshot shows a single failed password-related event identified in Splunk.
-
-### Failed Logins by User
-No results returned, indicating no users experienced repeated failed login attempts.
-
-### Failed Logins by Source IP
-No results returned, indicating no source IP addresses generated repeated failed login attempts.
-
 ## Conclusion
 This investigation focused on analyzing failed authentication activity within Linux authentication logs using Splunk.  
 Based on the searches performed, only a minimal number of failed login events were observed, with no patterns indicating repeated failures by user or source IP.
 
-At this time, there is no evidence of brute-force or suspicious authentication activity.  
+At this time, there is no evidence of brute-force or other suspicious authentication activity.
 This investigation demonstrates my ability to analyze authentication logs, identify potential security indicators, and document findings clearly even when activity levels are low.
