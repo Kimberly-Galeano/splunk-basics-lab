@@ -1,33 +1,18 @@
-# Splunk Basics Lab
+# Splunk Security Investigations
 
-## Overview
-This repo documents my beginner Splunk practice using searches to find useful events in logs and understand what “normal” activity looks like.
+This repository contains hands-on Splunk investigations focused on analyzing Linux authentication logs.  
+The goal of these investigations is to identify normal versus suspicious behavior, analyze authentication and session activity, and document findings using SOC-style investigation workflows.
 
-## Tools Used
-- Splunk (free/training environment)
-- Sample data / lab data
-
-## What I Practiced
-- Running basic searches and filtering results
-- Finding login-related events and errors
-- Narrowing results using keywords and time ranges
-- Saving searches and documenting what I found
-
-## Example Searches (starter)
-These are beginner examples I practiced (I’ll expand these as I go):
-- `index=* error OR failed OR failure`
-- `index=* (login OR logon OR authentication)`
-- `index=* sourcetype=* | head 20`
-
-## Notes
-More screenshots and findings will be added as I continue improving my searches and documentation.
-
-## Splunk Labs
-
-This repository documents hands-on Splunk investigations using Linux authentication logs to analyze login activity, failed authentication attempts, and session behavior.
-
-### Investigations
+## Completed Investigations
 - **Investigation 01:** Authentication Analysis
-- **Investigation 02:** Failed Login Pattern Analysis (in progress)
-- **Investigation 03:** Session Activity Review (planned)
+- **Investigation 02:** Failed Login Pattern Analysis
+- **Investigation 03:** Session Activity & Successful Login Review
 
+## Skills Demonstrated
+- SPL search creation and filtering
+- Linux authentication log analysis
+- Identification of failed and successful login patterns
+- Session activity analysis
+- Recognizing and documenting data limitations
+- Evidence collection and reporting
+- SOC-style investigation documentation
