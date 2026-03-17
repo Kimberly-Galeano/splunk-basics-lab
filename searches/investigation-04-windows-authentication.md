@@ -17,7 +17,8 @@ Analyze Windows authentication and privilege-related events to identify successf
 EventCode=4624
 ```
 **Example Event Evidence**
-![Successful Logon](screenshots/investigation-04/investigation4_successful_logon_4624.png)
+![Successful Logon Event](screenshots/investigation-04/investigation4_successful_logon_4624.png)
+
 ### Failed logons
 ```spl
 EventCode=4625
@@ -42,8 +43,7 @@ EventCode=4672
 
 These events are important indicators when monitoring authentication activity during security investigations.
 
-## Evidence
-Screenshots will be added after searches are completed.
-
 ## Conclusion
-Pending investigation results.
+This investigation demonstrates how Splunk can be used to analyze Windows authentication activity and detect important login-related events.
+
+By monitoring Event IDs 4624, 4625, and 4672, security analysts can identify successful logins, failed authentication attempts, and privileged access activity. These events are commonly used in security monitoring and incident investigations to detect suspicious login behavior.
